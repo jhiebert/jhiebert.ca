@@ -4,19 +4,46 @@
   <meta charset="utf-8">
   <title>Jer Hiebert</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Personal landing page">
+  <meta name="description" content="Jer Hiebert">
+
   <style>
+    :root {
+      --bg: #0e0f11;
+      --fg: #e6e6e6;
+      --muted: #9aa0a6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
     body {
-      max-width: 640px;
-      margin: 4rem auto;
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
-      padding: 0 1rem;
+      background-color: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      margin: 0;
     }
   </style>
 </head>
+
 <body>
   <h1>Jer Hiebert</h1>
-  <p>jhiebert.ca</p>
 </body>
 </html>
